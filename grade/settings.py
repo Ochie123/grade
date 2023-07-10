@@ -147,6 +147,11 @@ DATABASES = {
 #Username: grade
 #password: Grade123
 
+#python manage.py dumpdata courses --indent=2 --output=courses/fixtures/courses.json
+
+#python manage.py loaddata courses.json
+
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
