@@ -14,4 +14,4 @@ MVP school grading system
 #### Create at least 3 users, whether by django admin or signup via frontend then run this command:
 #### python manage.py loaddata courses.json
 
-## If you have trouble insalling the requirements.txt, install the packages individually; this means, run 'pip install '[package_name]''
+### If you have trouble insalling the requirements.txt, install the packages individually; this means, run 'pip install '[package_name]''
