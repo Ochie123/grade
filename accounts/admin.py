@@ -15,7 +15,7 @@ class UserAdmin(UserAdmin):
         "is_professor",
     ]
     fieldsets = UserAdmin.fieldsets + ((None, {"fields": ("user_bio", "is_professor")}),)
-    add_fieldsets = UserAdmin.add_fieldsets + ((None, {"fields": ("user_bio")}),)
+    add_fieldsets = UserAdmin.add_fieldsets + ((None, {"fields": ("user_bio", "is_professor")}),)
 
 
 admin.site.register(User, UserAdmin)
