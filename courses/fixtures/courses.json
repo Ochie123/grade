@@ -220,6 +220,17 @@
   }
 },
 {
+  "model": "courses.grade",
+  "pk": 19,
+  "fields": {
+    "user": 3,
+    "course": "05f46db8-0503-4372-9147-c889b5e7085b",
+    "grade_score": 0,
+    "created": "2023-07-11T05:53:22.209Z",
+    "updated_at": "2023-07-11T05:53:22.210Z"
+  }
+},
+{
   "model": "courses.enrolled",
   "pk": 13,
   "fields": {
@@ -291,4 +302,3 @@
     "timestamp": "2023-07-10T16:17:00.902Z"
   }
 }
-]

@@ -13,8 +13,9 @@ class UserAdmin(UserAdmin):
         "email",
         "username",
         "is_professor",
+        
     ]
-    fieldsets = UserAdmin.fieldsets + ((None, {"fields": ("user_bio", "is_professor")}),)
+    fieldsets = UserAdmin.fieldsets + ((None, {"fields": ("user_bio", "is_professor", "classes",)}),)
     add_fieldsets = UserAdmin.add_fieldsets + ((None, {"fields": ("user_bio")}),)
 
 

@@ -6,7 +6,7 @@ from django.utils import timezone
 from django.core.mail import send_mail
 from dateutil.relativedelta import relativedelta
 from django.utils.translation import gettext_lazy as _
-
+from courses.models import Clas
 # Create your models here.
 
 #from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin

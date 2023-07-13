@@ -41,3 +41,14 @@ class Enrolled(models.Model):
     
     def __str__(self):
         return f"{self.user.username} {self.course.title}"
+    
+class Clas(models.Model):
+    name = models.CharField(max_length=200)
+    created = models.DateTimeField(auto_now_add=True) 
+    updated_at = models.DateTimeField(auto_now=True)
+    students = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='registered_classes', blank=True)
+
+
+    def __str__(self):
+        return self.name
+    
